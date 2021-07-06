@@ -1,0 +1,55 @@
+{
+    "name": "my-content-module",
+    "title": "My Content Module",
+    "description": "A collection of my content.",
+    "version": "1.0.0",
+    "author": "Me",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "0.8.7",
+    "packs": [
+        {
+            "name": "module-creatures",
+            "label": "Module Creatures",
+            "path": "./packs/creatures.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "module-items",
+            "label": "Module Items",
+            "path": "./packs/items.db",
+            "entity": "Item"
+        },
+        {
+            "name": "module-scenes",
+            "label": "Module Scenes",
+            "path": "./packs/scenes.db",
+            "entity": "Scene"
+        },
+        {
+            "name": "module-journal-entries",
+            "label": "Module Journal Entries",
+            "path": "./packs/journal-entries.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "module-macros",
+            "label": "Module Macros",
+            "path": "./packs/macros.db",
+            "entity": "Macro"
+        },
+        {
+            "name": "module-roll-tables",
+            "label": "Module Roll Tables",
+            "path": "./packs/roll-tables.db",
+            "entity": "RollTable"
+        },
+        {
+            "name": "module-playlists",
+            "label": "Module Playlists",
+            "path": "./packs/playlists.db",
+            "entity": "Playlist"
+        }
+    ],
+    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/master/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/master/my-content-module.zip"
+  }
