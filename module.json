@@ -1,11 +1,43 @@
 {
-    "name": "my-content-module",
-    "title": "My Content Module",
-    "description": "A collection of my content.",
-    "version": "1.0.0",
-    "author": "Me",
-    "minimumCoreVersion": "0.8.6",
+    "name": "dsa5-hausregeln",
+    "title": "Hausregeln",
+    "description": "Gerrits Hausregeln für DSA 5.",
+    "version": "0.0.1",
+    "author": "gbeine",
+    "minimumCoreVersion": "9.236",
     "compatibleCoreVersion": "9",
+    "url": "https://github.com/gbeine/dsa5-hausregeln",
+    "manifest": "https://raw.githubusercontent.com/gbeine/dsa5-hausregeln/main/module.json",
+    "download": "https://raw.githubusercontent.com/gbeine/dsa5-hausregeln/main/my-content-module.zip",
+    "system": [
+        "dsa5"
+    ],
+    "dependencies": [
+        {
+            "name": "dsa5",
+            "type": "system"
+        },
+        {
+            "name": "dsa5-core",
+            "type": "module"
+        },
+        {
+            "name": "dsa5-magic-1",
+            "type": "module"
+        }
+    ],
+    "languages": [
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        },
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
     "packs": [
         {
             "name": "module-creatures",
@@ -56,7 +88,5 @@
             "entity": "Playlist",
             "type": "Playlist"
         }
-    ],
-    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
-    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
-  }
+    ]
+}
