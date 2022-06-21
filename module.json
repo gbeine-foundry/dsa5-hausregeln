@@ -41,37 +41,38 @@
     "packs": [
         {
             "name": "hausregeln-creatures",
-            "label": "Hausregeln Creatures",
+            "label": "Hausregeln: Kreaturen",
             "path": "./packs/creatures.db",
-            "entity": "Actor",
+            "type": "Actor"
+        },
+        {
+            "name": "hausregeln-creatures",
+            "label": "Hausregeln: Personen",
+            "path": "./packs/characters.db",
             "type": "Actor"
         },
         {
             "name": "hausregeln-items",
-            "label": "Hausregeln Items",
+            "label": "Hausregeln: Items",
             "path": "./packs/items.db",
-            "entity": "Item",
             "type": "Item"
         },
         {
             "name": "hausregeln-items-official",
-            "label": "Hausregeln Items (offiziell)",
+            "label": "Hausregeln: Items (offiziell)",
             "path": "./packs/items-official.db",
-            "entity": "Item",
             "type": "Item"
         },
         {
             "name": "hausregeln-scenes",
             "label": "Hausregeln Scenes",
             "path": "./packs/scenes.db",
-            "entity": "Scene",
             "type": "Scene"
         },
         {
             "name": "hausregeln-journal-entries",
             "label": "Hausregeln Journal Entries",
             "path": "./packs/journal-entries.db",
-            "entity": "JournalEntry",
             "type": "JournalEntry"
         }
     ]
